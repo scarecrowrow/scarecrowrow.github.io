@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
   <script>
@@ -48,9 +47,7 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   right: 71%;
 }
-  .prev {
-    right: 25%
-  }
+
 /* Position the "next button" to the right */
 .next {
   right: 25%;
@@ -80,6 +77,7 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  left: 25%
 }
 
 /* The dots/bullets/indicators */
@@ -190,17 +188,17 @@ img {vertical-align: middle;}
     padding-right: 2%;
     width: 453.27px;
 }
-
-  .centered5 {
+  .centered4 {
     position: absolute;
-    top: 550%;
+    top: 96%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: deepskyblue;
-    background-color: #101010;
+    color: white;
+    background-color: #656565;
     padding-left: 2%;
     padding-right: 2%;
-    width: 64%
+    width: 453.27px;
+
 }
 h3 {
   letter-spacing: 5px;
@@ -214,19 +212,15 @@ h3 {
 </style>
 </head>
 <body>
-<script>
-function myfunction()
-  var x = document.getElementById("reason")
-  alert(x)
-</script>
 <div class="bgimg-1">
   <div class="caption">
     <span class="border">Scarecrow Row</span><br>
     <span class="border">Lunken Airport and Armleader Park</span><br><br>
     <div class="larger">
     </div>
-  <div class=masterbox style="display:flex;flex-direction:row-reverse;">
-    <div class="centered" style="display:flex;flex-direction:column;flex-wrap: wrap;"><span style="font-size: 25px; letter-spacing: 10px;">Sign Up</span>
+<!--
+  <div class=masterbox>
+    <div class="centered"><span style="font-size: 25px; letter-spacing: 10px;">Sign Up</span>
       <form method="POST" name="sign up" action="https://formspree.io/3jbc22@gmail.com">
           <input type="text" name="name" id="name" placeholder="Your name" style="background-color: skyblue;" required><input  style="background-color: skyblue;" type="email" id="email" name="email" placeholder="Your email" required><br>
           <input type="tel" name="Tel" id="Tel" placeholder="Your Phone Number"><input type="text" id="SM" name="SM" placeholder="Social Media"><br>
@@ -270,16 +264,12 @@ function myfunction()
       </form>
       </div>
     <a href="photos.html">
-      <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span> 
-      </div>
-    </a>
-    <a href="https://facebook.com/ScarecrowRow">
-      <div class="centered5" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Visit us on FB</span> 
+      <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span>
+        
       </div>
     </a>
     </div>
-    
-<!--
+-->
     <div class="slideshow-container">
 
     <footer>
@@ -383,10 +373,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
--->
   </div>
 
 </div>
-
+<a href="index.html">
+  <div class="centered4" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;"><center>Home</center></span>
+        
+      </div>
+    </a>
 </body>
 </html>

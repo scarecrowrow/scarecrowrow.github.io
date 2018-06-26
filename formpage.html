@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body><center>
+    <h1>hi</h1>
+    <form method="POST" action="https://formspree.io/3jbc22@gmail.com">
+        <input type="text" name="firstname" id="firstname" placeholder="Your first name"><input type="text" id="lastname" name="lastname" placeholder="Your last name"><br>
+        <textarea name="comments" id="comments" rows="10" cols="30" placeholder="you have 400 characters" maxlength="400"></textarea><br>
+        <select name="location">
+          <option value="Lunken">Lunken Loop</option>
+          <option value="Arm">Armleader Trail</option>
+          <option value="Connector">Lunken/Armleader connector</option>
+        </select><br>
+        <label>Have you participated in the past?</label>
+        <input type="radio" name="Past_Participation" value="Yes" checked> Yes
+        <input type="radio" name="Past_Participation" value="No"> No
+        <input type="color">
+        <br><button type="submit">Finish</button>
+    </form>
+    </center></body>
+  <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .content {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("background.jpg");
+  height: 100%;
+}
+  .content {
+    background-color: black;
+  }
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
+</html>
