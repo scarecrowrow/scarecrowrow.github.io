@@ -27,7 +27,7 @@
     document.getElementById("photoslink").style.color = "white";
     }
   </script>
--->
+-->0
 <style>
 body, html {
   height: 100%;
