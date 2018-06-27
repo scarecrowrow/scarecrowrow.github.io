@@ -4,7 +4,7 @@
 <head>
   <script>
     if (screen.width > 1145) {
-    window.location.replace("https://scarecrowrow.github.io/index.html");
+    window.location.replace("https://scarecrowrow.github.io/index.md");
 }
     var x = "Total Height: " + screen.height;
 
@@ -237,7 +237,7 @@ h3 {
   <div class="caption">
     <span class="border">Scarecrow Row</span><br>
     <span class="border">Lunken Airport and Armleader Park</span><br><br>
-    <a href="index.html"><spam class="border">Visit desktop site</spam></a><br><a href="mobile.html"><spam class="border">Back to Home</spam></a>
+    <a href="index.md"><spam class="border">Visit desktop site</spam></a><br><a href="mobile.md"><spam class="border">Back to Home</spam></a>
   <div class=masterbox style="display:flex;flex-direction:row-reverse;">
 <!--
     <div class="centered" style="display:flex;flex-direction:column;flex-wrap: wrap;"><span style="font-size: 25px; letter-spacing: 10px;">Sign Up</span>
@@ -287,12 +287,12 @@ h3 {
       </div>
 
 <!--
-    <a href="photos.html">
+    <a href="photos.md">
       <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span>
         
       </div>
     </a>
-    <a href="spread.html"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
+    <a href="spread.md"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
       </div></a>
     </div>
 -->

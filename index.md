@@ -4,7 +4,7 @@
 <head>
   <script>
     if (screen.width <= 1145) {
-    window.location.replace("https://scarecrowrow.github.io/mobile.html");
+    window.location.replace("https://scarecrowrow.github.io/mobile.md");
 }
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -299,7 +299,7 @@ function myfunction()
           <label style="color: skyblue;" >required fields</label>
       </form>
       </div>
-    <a href="photos.html">
+    <a href="photos.md">
       <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span> 
       </div>
     </a>
@@ -307,7 +307,7 @@ function myfunction()
       <div class="centered5" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Visit us on FB</span> 
       </div>
     </a>
-    <a href="spread.html"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
+    <a href="spread.md"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
       </div></a>
     
 <!--

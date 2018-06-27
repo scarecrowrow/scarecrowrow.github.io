@@ -273,7 +273,7 @@ h3 {
           <label style="color: skyblue;" >required fields</label>
       </form>
       </div>
-    <a href="photos.html">
+    <a href="photos.md">
       <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span>
         
       </div>
@@ -386,7 +386,7 @@ function showSlides(n) {
   </div>
 
 </div>
-<a href="index.html">
+<a href="index.md">
   <div class="centered4" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;"><center>Home</center></span>
         
       </div>

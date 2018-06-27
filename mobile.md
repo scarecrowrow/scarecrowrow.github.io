@@ -4,7 +4,7 @@
 <head>
   <script>
     if (screen.width > 1145) {
-    window.location.replace("https://scarecrowrow.github.io/index.html");
+    window.location.replace("https://scarecrowrow.github.io/index.md");
 }
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -275,10 +275,10 @@ h3 {
   <div class="caption">
     <span class="border">Scarecrow Row</span><br>
     <span class="border">Lunken Airport and Armleader Park</span><br><br>
-    <a href="index.html"><spam class="border">Visit desktop site</spam></a>
+    <a href="index.md"><spam class="border">Visit desktop site</spam></a>
   <div class=masterbox style="display:flex;flex-direction:row-reverse;">
 <!--    <div class="centered" style="display:flex;flex-direction:column;flex-wrap: wrap;">-->
-    <a href="mobile-signup.html"><span class="centered7">Sign Up</span></a>
+    <a href="mobile-signup.md"><span class="centered7">Sign Up</span></a>
 <!--
       <form method="POST" name="sign up" action="https://formspree.io/3jbc22@gmail.com">
           <input type="text" name="name" id="name" placeholder="Your name" style="background-color: skyblue;" required><input  style="background-color: skyblue;" type="email" id="email" name="email" placeholder="Your email" required><br>
@@ -303,7 +303,7 @@ h3 {
 -->
     
 <!--      <div class="centered2">-->
-    <a href="mobile-request.html"><span class="centered8" style="font-size: 25px; letter-spacing: 10px;">Contact</span></a>
+    <a href="mobile-request.md"><span class="centered8" style="font-size: 25px; letter-spacing: 10px;">Contact</span></a>
 <!--
       <form method="POST" name="contact" action="https://formspree.io/3jbc22@gmail.com">
           <input type="text" name="name" style="background-color: skyblue;"  id="name" placeholder="Your name" required><input style="background-color: skyblue;"  type="email" id="email" name="email" placeholder="Your email" required><br>
@@ -326,12 +326,12 @@ h3 {
       </form>
       </div>
 -->
-    <a href="photos.html">
+    <a href="photos.md">
       <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span>
         
       </div>
     </a>
-    <a href="spread.html"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
+    <a href="spread.md"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
       </div></a>
     </div>
 <!--

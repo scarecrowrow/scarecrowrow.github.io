@@ -14,7 +14,7 @@
   </head>
   <body>
     <img src="qr.png"><br>
-    <a href="index.html">Return to DESKTOP site</a><br><br>
-    <a href="mobile.html">Return to MOBILE site</a>
+    <a href="index.md">Return to DESKTOP site</a><br><br>
+    <a href="mobile.md">Return to MOBILE site</a>
   </body>
 </html>
