@@ -4,7 +4,7 @@
 <head>
   <script>
     if (screen.width <= 1145) {
-    window.location.replace("https://scarecrowrow.github.io/mobile.html");
+    window.location.replace("https://scarecrowrow.github.io/mobile.md");
 }
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -16,25 +16,6 @@
 
   gtag('config', 'UA-121420262-1');
 </script>
-<script>
-  function myFunction() {
-    document.cookie = "status=completed; expires=Thu, 27 Oct 2018 12:00:00 UTC";
-  }
-</script>
-<script>
-  function myCredits() {
-  document.getElementById("credits").innerHTML = "Credit to Jack Crane for this website. Contact him at 3jbc22@gmail.com"
-  }
-</script>
-<script>
-  function myBenefit() {
-  document.getElementById("benefit").style.color = "#777"
-  document.getElementById("benefit").innerHTML = "Scarecrow row benefits absolutley no one, as we collect no money. We are hoping to find a charity soon for this year and collect funds."
-  }
-</script>
-<script>
-  var x = document.cookie;
-</script>
 <title>Scarecrow Row</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
@@ -42,11 +23,11 @@
     function myFunction() {
     document.getElementById("photoslink").style.color = "yellow";
     }
-    function () {
+    function myFunction2() {
     document.getElementById("photoslink").style.color = "white";
     }
   </script>
--->
+-->0
 <style>
 body, html {
   height: 100%;
@@ -276,11 +257,6 @@ function myfunction()
     </div>
   <div class=masterbox style="display:flex;flex-direction:row-reverse;">
     <div class="centered" style="display:flex;flex-direction:column;flex-wrap: wrap;"><span style="font-size: 25px; letter-spacing: 10px;">Sign Up</span>
-      <script>
-        function myFunction2() {
-        document.getElementById("myText2").value=(document.getElementById("email").value);
-        }
-      </script>
       <form method="POST" name="sign up" action="https://formspree.io/3jbc22@gmail.com">
           <input type="text" name="name" id="name" placeholder="Your name" style="background-color: skyblue;" required><input  style="background-color: skyblue;" type="email" id="email" name="email" placeholder="Your email" required><br>
           <input type="tel" name="Tel" id="Tel" placeholder="Your Phone Number"><input type="text" id="SM" name="SM" placeholder="Social Media"><br>
@@ -295,9 +271,8 @@ function myfunction()
           <label>Have you participated in the past?</label>
           <input type="radio" name="Past_Participation" value="Yes"> Yes
           <input type="radio" name="Past_Participation" value="No"> No<br>
-          <label>Upload Pictures <span style="color:red;">not working</span></label><br>
-          <input type="file" name="images" multiple style="background-color: red;" disabled>
-          <input id="myText2" type="hidden" name="_cc" value="" />
+          <label>Upload Pictures (if you have any):</label><br>
+          <input type="file" name="images" multiple>
           <br><button type="submit">Finish</button><br>
           <label style="color: skyblue;" >required fields</label>
       </form>
@@ -324,15 +299,15 @@ function myfunction()
           <label style="color: skyblue;" >required fields</label>
       </form>
       </div>
-    <a href="photos.html">
-      <div class="centered3" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span> 
+    <a href="photos.md">
+      <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span> 
       </div>
     </a>
     <a href="https://facebook.com/ScarecrowRow">
-      <div class="centered5" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Visit us on FB</span> 
+      <div class="centered5" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Visit us on FB</span> 
       </div>
     </a>
-    <a href="spread.html"><div class="centered6" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
+    <a href="spread.md"><div class="centered6" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
       </div></a>
     
 <!--
@@ -443,9 +418,6 @@ function showSlides(n) {
   </div>
 
 </div>
-<spread id="credits" onclick="myCredits()">Click for site credits</spread>
-<center>
-  <spread style='color: transparent;' id="benefit" onclick="myBenefit()">Click for benefit</spread>
-</center>
+
 </body>
 </html>
