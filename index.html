@@ -2,10 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
   <script>
+ $(document).ready(function(){
+
+      $("body").hide().fadeIn(2000);
+    });
+
     if (screen.width <= 1145) {
     window.location.replace("https://scarecrowrow.github.io/mobile.html");
 }
+    if (navigator.appCodeName; != mozilla) {alert('Due to security reasons placed on us by our form service provider, you will most likley not be able to submit forms on this browser. For more information, please research "formspree compatible web browsers"' + "\n" + "\n" + "Please try:" + " \n"  +"Google Chrome" + " \n"  + "Microsoft Edge" + " \n"  +"Internet Explorer" + " \n"  + "Firefox" + " \n"  + "Safari" + " \n"  + "Opera" + "\n" + "\n" + "With that being said, please do not hesitate to try, it might work. If you are using one of these browsers, we would reccommend switching to another compatible software, or check to see if your browser has any pending updates." + "\n" + "\n" + "We are sorry for any inconvience this has caused.")}
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121420262-1"></script>
@@ -264,8 +274,9 @@ h3 {
 </head>
 <body>
 <script>
+  
 function myfunction()
-  var x = document.getElementById("reason")
+  x = document.getElementById("reason")
   alert(x)
 </script>
 <div class="bgimg-1">
@@ -297,7 +308,7 @@ function myfunction()
           <input type="radio" name="Past_Participation" value="No"> No<br>
           <label>Upload Pictures <span style="color:red;">not working</span></label><br>
           <input type="file" name="images" multiple style="background-color: red;" disabled>
-          <input id="myText2" type="hidden" name="_cc" value="" />
+          <input id="myText2" type="hidden" name="_cc" value="" />  
           <input type="hidden" name="_subject" value="Thank you for your submission to Scarecrow Row" />
           <input type="hidden" name="_format" value="plain" />
           <br><button onclick="myFunction2()" type="submit">Finish</button><br>
