@@ -33,12 +33,11 @@
 </script>
 <script>
   function myCredits() {
-  document.getElementById("credits").innerHTML = "Credit to Jack Crane for this website. Contact him at 3jbc22@gmail.com"
+  document.getElementById("credits").innerHTML = "Credit to JC for this website. Contact him at 3jbc22@gmail.com"
   }
 </script>
 <script>
   function myBenefit() {
-  document.getElementById("benefit").style.color = "#777"
   document.getElementById("benefit").innerHTML = "Scarecrow row benefits absolutley no one, as we collect no money. We are hoping to find a charity soon for this year and collect funds."
   }
 </script>
@@ -230,8 +229,9 @@ img {vertical-align: middle;}
 }
   .centered3 {
     position: absolute;
-    top: 470%;
+    top: 358%;
     left: 70%;
+    text-align: center;
     transform: translate(-50%, -50%);
     color: white;
     background-color: #101010;
@@ -239,7 +239,18 @@ img {vertical-align: middle;}
     padding-right: 2%;
     width: 453.27px;
 }
-
+.innerphotos {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.innerphotos2 {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
   .centered5 {
     position: absolute;
     top: 550%;
@@ -251,9 +262,11 @@ img {vertical-align: middle;}
     padding-right: 2%;
     width: 64%
 }
-    .centered6 {
+}
+}
+  .centered6 {
     position: absolute;
-    top: 610%;
+    top: 450%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: deepskyblue;
@@ -262,6 +275,7 @@ img {vertical-align: middle;}
     padding-right: 2%;
     width: 64%
 }
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -271,6 +285,17 @@ h3 {
   .masterbox {
     
   }
+  .centered5 {
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: deepskyblue;
+    background-color: #101010;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 64%
+}
 </style>
 </head>
 <body>
@@ -294,37 +319,21 @@ and we are so happy that Great Parks and Cincinnati Recreation invited
 us back for a second.<br><br>We are looking for artistic individuals, organizations and businesses to
 create some really cool scarecrows.</span> <a href="who.html">Read more</a>
       </div>
-    
+    <a href="forms.html">
       <div class="centered2"><span style="font-size: 25px; letter-spacing: 10px;">Contact</span>
-      <form method="POST" name="contact" action="https://formspree.io/3jbc22@gmail.com">
-          <input type="text" name="name" style="background-color: skyblue;"  id="name" placeholder="Your name" required><input style="background-color: skyblue;"  type="email" id="email" name="email" placeholder="Your email" required><br>
-          <label>Why are you contacting us?</label>
-        <select name="reason" id="reason" style="background-color: skyblue;"  required>
-            <option value="Select...">Select...</option>
-            <option value="Complaint">Complaint</option>
-            <option value="Compliment">Compliment</option>
-            <option value="Volunteer">Volunteer</option>
-            <option value="Remove sign up">Remove your sign up</option>
-            <option value="Remove sign up">Other</option>
-          </select><br>
-          <textarea name="comments" style="background-color: skyblue;"  id="comments" rows="10" cols="30" placeholder="you have 400 characters to elaborate" maxlength="400"></textarea><br>
-          <label>Are you a participant?</label>
-          <input type="radio" name="Past_Participation" value="Yes"> Yes
-          <input type="radio" name="Past_Participation" value="No"> No
-          <br><input type="file" name="images" multiple>
-          <br><button type="submit">Finish</button><br>
-          <label style="color: skyblue;" >required fields</label>
-      </form>
+    
       </div>
+    </a>
     <a href="photos.html">
       <div class="centered3" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span> 
+   
       </div>
     </a>
     <a href="https://facebook.com/ScarecrowRow">
       <div class="centered5" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Visit us on FB</span> 
       </div>
     </a>
-    <a href="spread.html"><div class="centered6" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Spread the word!</span>
+    <a href="spread.html"><div class="centered6" onMouseover ="()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 1px; letter-spacing: 1px;color:transparent;">!</span>
       </div></a>
     
 <!--
@@ -437,7 +446,7 @@ function showSlides(n) {
 </div>
 <spread id="credits" onclick="myCredits()">Click for site credits</spread>
 <center>
-  <spread style='color: transparent;' id="benefit" onclick="myBenefit()">Click for benefit</spread>
+  <label style='color: transparent' id="benefit" onclick="myBenefit()">Click for benefit</label>
 </center>
 </body>
 </html>
