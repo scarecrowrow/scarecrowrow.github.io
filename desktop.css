@@ -245,3 +245,25 @@ h3 {
     padding-right: 2%;
     width: 453.27px;
 }
+.centered2_who {
+    position: absolute;
+    top: 262%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #101010;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 906.54px;
+}
+    .centered6_who {
+    position: absolute;
+    top: 610%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: deepskyblue;
+    background-color: #101010;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 64%
+}
