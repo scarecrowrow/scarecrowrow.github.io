@@ -105,6 +105,20 @@ h3 {
   .masterbox {
     
   }
+  .centered9 {
+    position: absolute;
+    top: 295%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #101010;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    margin: 5px auto;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
 </style>
 </head>
 <body>
@@ -117,7 +131,7 @@ h3 {
   <div class="caption">
     <span class="border">Scarecrow Row</span><br>
     <span class="border">Lunken Airport and Armleader Park</span><br><br>
-    <a href="index.html"><spam class="border">Visit desktop site</spam></a><br><a href="mobile.html"><spam class="border">Back to Home</spam></a>
+    <a href="index.html"><spam class="border" style="color:transparent;text-decoration: none;"></spam></a><br><a href="mobile.html"><spam class="border" style="color:transparent;text-decoration: none;"></spam></a>
   <div class=masterbox style="display:flex;flex-direction:row-reverse;">
 <!--
     <div class="centered" style="display:flex;flex-direction:column;flex-wrap: wrap;"><span style="font-size: 25px; letter-spacing: 10px;">Sign Up</span>
@@ -150,11 +164,9 @@ h3 {
           <label>Why are you contacting us?</label>
         <select name="reason" id="reason" style="background-color: skyblue;"  required>
             <option value="Select...">Select...</option>
-            <option value="Complaint">Complaint</option>
-            <option value="Compliment">Compliment</option>
+            <option value="Signup">Sign up</option>
             <option value="Volunteer">Volunteer</option>
-            <option value="Remove sign up">Remove your sign up</option>
-            <option value="Remove sign up">Other</option>
+            <option value="Other">Other</option>
           </select><br>
           <textarea name="comments" style="background-color: skyblue;"  id="comments" rows="10" cols="30" placeholder="you have 400 characters to elaborate" maxlength="400"></textarea><br>
           <label>Are you a participant?</label>
@@ -165,7 +177,7 @@ h3 {
           <label style="color: skyblue;" >required fields</label>
       </form>
       </div>
-
+<a href="mobile.html"><span class="centered9" style="font-size: 25px; letter-spacing: 10px;">Home</span></a>
 <!--
     <a href="photos.html">
       <div class="centered3" onMouseover ="myFunction2()" onMouseover="myFunction()" id="photoslink"><span style="font-size: 25px; letter-spacing: 10px;">Photos</span>

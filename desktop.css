@@ -247,7 +247,7 @@ h3 {
 }
 .centered2_who {
     position: absolute;
-    top: 262%;
+    top: 300%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
