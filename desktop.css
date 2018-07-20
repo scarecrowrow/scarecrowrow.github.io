@@ -107,6 +107,9 @@ h3 {
   .masterbox {
     
   }
+.pointer {
+  cursor: pointer;
+}
 .centered2_forms {
     position: absolute;
     top: 400%;
