@@ -63,6 +63,17 @@ img {vertical-align: middle;}
     padding-right: 2%;
     width: 453.27px;
 }
+.centered10 {
+    position: absolute;
+    top: 260%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #101010;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 453.27px;  
+  }
   .centered3 {
     position: absolute;
     top: 308%;
@@ -74,6 +85,7 @@ img {vertical-align: middle;}
     padding-left: 2%;
     padding-right: 2%;
     width: 453.27px;
+}
 }
   .centered5 {
     position: absolute;
