@@ -207,13 +207,13 @@ function myFunctionCheck() {
 <center>
   
 <div class="form">
-    <form action="http://app-scarecrowrow-form-imput.000webhostapp.com/404error.php">
-      <input style="width:100%" type="text" name="target" placeholder="What page were you trying to visit (if you know)">
+    <form name="form" method="post" action="http://app-scarecrowrow-form-imput.000webhostapp.com/404error.php">
+      <input style="width:100%" type="text" name="target" id="target" placeholder="What page were you trying to visit (if you know)">
       <br>
       <label>Did you get here by following a link?</label>
-      <input type="checkbox" id="myCheck" name="referred" onclick="myFunctionCheck()" checked>
-      <center><input style="width:100%" type="text" name="referrer" placeholder="Where did you come from?" id="text" style="display:none"></center>
-      <input type="text" name="currentURL" placeholder="what is the current URL?" id="currentURL">
+      <input type="checkbox" id="referred" name="referred" onclick="myFunctionCheck()" checked>
+      <center><input style="width:100%" type="text" name="referrer" id="referrer" placeholder="Where did you come from?" id="text" style="display:none"></center>
+      <input type="text" name="currentURL" id="currentURL" placeholder="what is the current URL?" id="currentURL">
       <input type="submit">
     </form>
 </div>
