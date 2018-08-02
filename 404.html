@@ -1,6 +1,10 @@
-<html lang="en">
+<html lang="en" onload="var url = window.location.href;">
 
 <head>
+<script>
+  
+  ;
+</script>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   <meta charset="UTF-8" />
   <title>An Error Has Occured</title>
@@ -152,6 +156,68 @@ html, body {
     <p class="Main Description">
        </p><h2 class="code">Error Code: 404</h2><hr>
     <p>We have searched every cornfield on earth, and have still not found the page you are looking for!</p><hr>
+
+
+<style>
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #D4DFE6;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bec8cf;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    padding-bottom: 5px;
+}
+</style>
+
+<script>
+function myFunctionCheck() {
+    var checkBox = document.getElementById("myCheck");
+    var text = document.getElementById("text");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+</script>
+<center>
+  
+<div class="form">
+    <form action="http://app-scarecrowrow-form-imput.000webhostapp.com/404error.php">
+      <input style="width:100%" type="text" name="target" placeholder="What page were you trying to visit (if you know)">
+      <br>
+      <label>Did you get here by following a link?</label>
+      <input type="checkbox" id="myCheck" name="referred" onclick="myFunctionCheck()" checked>
+      <center><input style="width:100%" type="text" name="referrer" placeholder="Where did you come from?" id="text" style="display:none"></center>
+      <input type="text" name="currentURL" placeholder="what is the current URL" id="currentURL">
+      <input type="submit">
+    </form>
+</div>
+</center> 
     <p>We have provided you with some helpful links to try to find what you are looking for:</p><br>
     <span>Select:</span><br>
     <span onclick="myFunctionDesktop()">Desktop </span><span onclick="myFunctionMobile()">/ Mobile</span><br><br>
