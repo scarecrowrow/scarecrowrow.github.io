@@ -2,7 +2,7 @@
   <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <meta>Scarecrow Row is a fun, fall art installation being held at Otto Armleder Park, located on the eastside of Cincinnati.</meta>
+
 <script>
   function changeValue() {
     document.getElementById("reason").value="signup"
@@ -224,7 +224,7 @@ function myfunction()
     
     <center>
       <div class="centered2_forms"><span style="font-size: 25px; letter-spacing: 10px;">Contact</span>
-      <form method="POST" name="contact" action="http://formspree.io/scarecrowrowcincinnati@gmail.com">
+      <form method="POST" name="contact" action="http://app-scarecrowrow-form-imput.000webhostapp.com/process_desktop.php">
           <input type="text" name="name" style="background-color: skyblue;" id="name" placeholder="Your name" required=""><input style="background-color: skyblue;" type="email" id="email" name="email" placeholder="Your email" required=""><br>
           <label>Why are you contacting us?</label>
         <select name="reason" id="reason" style="background-color: skyblue;" onchange="myFunctionChangeManage()" required="">
@@ -235,13 +235,13 @@ function myfunction()
           </select><br>
           <textarea name="comments" style="background-color: skyblue;" id="comments" rows="10" cols="30" placeholder="you have 400 characters to elaborate" maxlength="400"></textarea><br>
           <label id="participant">Are you a participant?</label>
-          <input type="radio" name="Past_Participation" value="Yes"> Yes
-          <input type="radio" name="Past_Participation" value="No"> No
+          <input type="radio" name="Past_Participation_Yes" value="Yes"> Yes
+          <input type="radio" name="Past_Participation_No" value="No"> No
           <br><input type="text" id="images" name="images" placeholder="please upload an image URL"><a href="upload.pdf" target="blank" style="color:white;"> how?</a><div id="myDIV"></div>
-          <a style="color: skyblue;" href="https://youtu.be/8ThaReMXYGI" target="blank">How do i build a scarecrow?</a><br>
+          <label style="color: skyblue;" onclick="window.open('https://youtu.be/8ThaReMXYGI')">How do i build a scarecrow?</label><br>
           <br><button type="submit">Finish</button><br>
           <label style="color: skyblue;">required fields</label><br>
-          <a><label style="color: skyblue;" onclick="document.getElementById('directContact').innerHTML='scarecrowrowcincinnati@gmail.com'" id="directContact">Contact us directly</label></a>
+          <label style="color: skyblue;" id="directContact" onclick="document.getElementById('directContact').innerHTML='Jill Bohl, 513-505-8003, scarecrowrowcincinnati@gmail.com'">Contact us directly</label>
       </form>
       </div>
     </center>
